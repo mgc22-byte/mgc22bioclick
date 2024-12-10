@@ -1,17 +1,8 @@
----
+theme: jekyll-shell-theme
 title: An Examination of Quercus Rubra Abundance and Temperature Gradient Impact
 author: Maya Crutcher
 date: 12/10/2024
-output:
-  html_document:
-  css: custom-theme.css
-  toc:true
-  toc_float:true
 
-editor_options: 
-  markdown: 
-    wrap: 72
----
 
 # **Research Question**
 
