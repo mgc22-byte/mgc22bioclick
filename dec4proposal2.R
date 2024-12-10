@@ -41,7 +41,9 @@ fia_data \<- readRDS("U:\\Biogeography Classwork\\FIA_tree_master1.RDS") names(f
 
 head(nro)
 
-head(fia_data) names(fia_data) unique(fia_data\$COMMON_NAME)
+head(fia_data) 
+names(fia_data) 
+unique(fia_data\$COMMON_NAME)
 
 "map different variables of northern red oak"
 
@@ -56,6 +58,15 @@ var1
 library(ggplot2)
 
 ggplot(var1, aes(x= PLT_lon, y = PLT_lat, color = nro)) + geom_point(size = 0.9) + scale_color_gradient(low = "yellow", high = "blue") + labs(title = "Species Richness", x = "Longitude", y = "Latitude")
+
+
+
+
+
+
+
+
+
 
 var2 \<- nro %\>% group_by(HT, LON, LAT, DIA) %\>% summarise(nro = n_distinct(COMMON_NAME))
 
