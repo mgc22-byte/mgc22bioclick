@@ -94,20 +94,11 @@ geom_sf(data = sweet_b, fill = "yellow", color = "red", linetype = "solid") +
 theme_minimal() + 
 labs(title = "Distribution of Quercus Rubra")
 
-ggplot(nro, aes(LON, LAT)) + 
-geom_polygon(nro = nro, fill = "yellow") + 
-coord_map()
 
 library(ggplot2) 
 library(sf) 
 library(tidyverse)
 
-plot(nro) 
-plot(sweet_b)
-
-ggplot(nro, aes(LON, LAT)) + 
-geom_sf(nro = nro, fill = "lightblue") 
-scale_fill_gradient(low = "red", high = "yellow")
 
 ggplot()+ 
 geom_sf(aes(fill= TempMean),color = "lightblue", nro)+
