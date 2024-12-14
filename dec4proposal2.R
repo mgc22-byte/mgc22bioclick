@@ -1,29 +1,3 @@
-theme: jekyll-shell-theme
-title: An Examination of Quercus Rubra Abundance and Temperature Gradient Impact
-author: Maya Crutcher
-date: 12/10/2024
-
-
-# **Research Question**
-
-  How does the temperature gradient influence the abundance and distribution of Quercus rubra across 
-  different regions over time, and what are the ecological implications of these changes on forest 
-  ecosystems and biodiversity?
-
-## **Background**
-
-##Forests cover about 31% of the Earth's land area, providing vital ecosystem services. Climate change has accelerated in tree species distributions, with many species moving to higher latitudes or elevations in response to warming temperatures (Parmesan, 2006; Iverson et al., 2008). 
-Previous studies have established temperature as a key driver of tree migration, but little research has specifically focused on how Quercus rubra responds to temperature changes across its range. 
-Quercus rubra is a cornerstone species of temperate forests in North America, contributing to ecosystems stability and providing critical habitat and resources. 
-Its response to temperature changes will likely have cascading effects on forest ecosystems. 
-By analyzing FIA data, this study seeks to provide a detailed understanding of Quercus rubra’s relationship with temperature gradients contributing to sustainable forest management and conservation strategies.##
-
-### **Hypothesis** 
-
-Regions experiencing warmer temperatures will exhibit a decline in Quercus rubra abundance. Quercus rubra will show a northward migration trend in response to rising temperatures.
-
-#### **`Results`**
-
 library(ggplot2) library(tidyverse)\
 library(readr)\
 library(dplyr)
